@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Calcular IMC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Calcular IMC</legend>
+			<input type="text" name="text" id="peso" placeholder="Coloque seu peso"><br>
+			<input type="text" name="text" id="altura" placeholder="Coloque a sua altura"><br>
+			<input type="text" name="text" disabled id="IMC" placeholder="Seu IMC é...">
+			<input type="text" name="text" disabled id="A" placeholder="Acima ou Abaixo do peso"><br>
+			<input type="button" value="enviar" id="enviar" onclick="calcular()">
+			<input type="button" value="limpar" id="limp" onclick="limpar()">
+			<div style="clear: both;"></div>
+			<a class="links-redes-sociais" href="https://github.com/IsaacLouzeiro" target="_blank"><img src="img/github-icon.png"></a>
+			<a class="links-redes-sociais" href="https://www.linkedin.com/in/isaac-elias-louzeiro/" target="_blank"><img src="img/linkedin-icon.png"></a>
+		</fieldset>
+	</form>
+
+	<script type="text/javascript" src="javascript/javascript.js"></script>
+</body>
+</html>
